@@ -1,7 +1,7 @@
 namespace pkoala {
     /**
      * 骨骼动画管理
-     * @auther pury
+     * @author pury
      * @date 2020-7-5
      * 
      * Copyright (c) 2020-present, pkoala.

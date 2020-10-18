@@ -2,3 +2,4 @@ project/.wing
 project/bin-debug
 *swp
 *DS_Store
+tools/excel2json/node_modules
