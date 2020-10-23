@@ -1,6 +1,8 @@
 
 
- 使用tinypng批量压缩图片，无需配置key，突破数量限制等，在已有脚本基础上做了进一步优化。
+ 使用`tinypng`批量压缩图片，无需配置key，突破数量限制等，在已有脚本基础上做了进一步优化。
+
+ 由于需要访问网络等因素，如果压缩失败，可多次尝试。
 
 
 ### 优化
@@ -13,10 +15,10 @@
 
  下载到本地
  ```
-    git clone https://github.com/pury/h5-game/tree/main/tools/compress-image
+    https://github.com/pury/h5-game/tree/main/tools/compress-image
  ```
 
- 配置默认参数
+ 配置参数
 
  ```js
     /** * 默认原目录 */
@@ -33,6 +35,6 @@
 
  ### 感谢 
  
- * https://github.com/zhanyuzhang/super-tinypng (优化：通过 X-Forwarded-For 添加了动态随机伪IP，绕过 tinypng 的上传数量限制)
- 
+ * https://github.com/zhanyuzhang/super-tinypng 
+
  * https://segmentfault.com/a/1190000015467084
