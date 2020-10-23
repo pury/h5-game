@@ -13,11 +13,6 @@
 
  ### 使用
 
- 下载到本地
- ```
-    https://github.com/pury/h5-game/tree/main/tools/compress-image
- ```
-
  配置参数
 
  ```js
