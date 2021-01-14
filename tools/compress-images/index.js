@@ -37,7 +37,7 @@ const max = 5200000; // 5MB == 5242848.754299136
 
 // 检测命令行参数
 var arguments = process.argv.splice(2);
-(arguments.length == 1) && (origin_dir = arguments[0]);
+(arguments.length >= 1) && (origin_dir = arguments[0]);
 (arguments.length == 2) && (output_dir = arguments[1]);
 
 const options = {
